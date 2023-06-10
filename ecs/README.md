@@ -534,3 +534,8 @@ services:
       - CTL_ON_START=registered_users localhost ;
                      status
 ```
+
+```
+-- 一键打包docker 镜像
+docker build --build-arg VERSION=23.04 .
+```
